@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color:#0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 0px;
+}
+.nav-logo{
+    height: 60px;
+    width: 100px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+
+}
+.logo{
+    background-image: url("log.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+ border: 1px solid white;
+}
+.nav-deli{
+    margin-top: 4px;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.deli-1{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.deli-2{
+    font-size: 1rem;
+    color: white;
+    margin-left: 15px;
+}
+.nav-search{
+    display: flex;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 5px;
+    justify-content: space-evenly;
+    border: none;
+
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    height: 40px;
+    width: 50px;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    justify-content: center;
+}
+.search-input{
+    height: 40px;
+    width: 800px;
+   border: none;
+   font-size: 1rem;
+   align-items: center;
+   justify-content: center;
+   
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #FF9900;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+span{
+    font-size: 12px;
+}
+.nav-second{
+    font-size: 14px;
+    font-weight: 700;
+}
+.return{
+    font-size:12px
+}
+.order{
+    font-size: 15px;
+}
+.cart i{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+/*second nav bar*/
+.panel{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#232F3E;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 8px 9px;
+    font-weight: 500;
+}
+.panel-all{
+    height: 40px;
+ margin-left: 2px;
+ align-items: center;
+ font-weight: 700;
+
+
+}
+.panel-today{
+    height: 40px;
+ margin-left: 9px;
+ align-items: center;
+}
+.panel-customer{
+    height: 40px;
+    margin-left: 9px;
+    align-items: center;
+}
+.panel-registry{
+    height: 40px;
+    margin-left: 9px;
+    align-items: center;
+
+}
+.panel-gift{
+    height: 40px;
+    margin-left: 9px;
+    align-items: center;
+}
+.panel-sell{
+    height: 40px;
+    margin-left: 9px;
+    align-items: center;
+}
+.hero-section{
+    height: 600px;
+    width: 100%;
+    background-image: url("amp.jpg");
+background-size: cover;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+
+}
+.hero-message{
+    height: 40px;
+    width: 95%;
+    background-color: #F5F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 230px;
+
+}
+a{
+    color: blue;
+}
+.box{
+    border: 2px solid #cccccc;
+    height: 100px;
+}
+.shop-section{
+    height: 450px;
+    width: 1264;
+    background-color: #F5F6F6;
+display: flex;
+justify-content: space-evenly;
+align-items: flex-start;
+
+}
+.box1{
+    height: 420px;
+    width: 380px;
+    background-color: white;
+    font-size: 23px;
+    margin: 0px 0px 10px;
+    padding: 0px 20px;
+    font-weight: 700;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: center;
+align-items: center;
+}
+/*box1 image*/
+.box1a{
+    height: 103px;
+    width: 170px;
+}
+.box1b{
+    height: 103px;
+    width: 170px;
+}
+.box1c{
+    height: 103px;
+    width: 170px;
+}
+.box1d{
+    height: 103px;
+    width: 170px;
+}
+
+.box2{
+    height: 420px;
+    width: 380px;
+    background-color: white;
+    font-size: 23px;
+    margin: 0px 0px 10px;
+    padding: 0px 20px;
+    font-weight: 700;
+    display: flex;
+flex-wrap: wrap;
+gap: 10px;
+justify-content: center;
+align-items: center;
+}
+/*box2 images*/
+.box2a{
+    height: 103px;
+    width: 170px;
+}
+.box2b{
+    height: 103px;
+    width: 170px;
+}
+.box2c{
+    height: 103px;
+    width: 170px;
+}
+.box2d{
+    height: 103px;
+    width: 170px;
+}
+.box3{
+    height: 420px;
+    width: 380px;
+    background-color: white;
+    font-size: 23px;
+    margin: 0px 0px 10px;
+    padding: 0px 20px;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/*box3 images*/
+.box3a{
+    height: 103px;
+    width: 170px;
+}
+.box3b{
+    height: 103px;
+    width: 170px;
+}
+.box3c{
+    height: 103px;
+    width: 170px;
+}
+.box3d{
+    height: 103px;
+    width: 170px;
+}
+.box4{
+    height: 420px;
+    width: 380px;
+    background-color: white;
+    font-size: 23px;
+    margin: 0px 0px 10px;
+    padding: 0px 20px;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/*box4 images*/
+.box4a{
+    height: 103px;
+    width: 170px;
+}
+.box4b{
+    height: 103px;
+    width: 170px;
+}
+.box4c{
+    height: 103px;
+    width: 170px;
+}
+.box4d{
+    height: 103px;
+    width: 170px;
+}
+/* images font*/
+.b{
+    font-size: 10px;
+ margin-top: 105px;
+}
+/*second shop section*/
+.vikash{
+    height: 400x;
+    width: 100%;
+    background-color: #F5F6F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+  font-size: 23px;
+  font-weight: 700;
+}
+.k1{
+    height: 420px;
+    width: 400px;
+    padding: 15px;
+    padding-bottom: 5px;
+    
+ }
+ .k1a{
+    height: 360px;
+    width: 380px;
+    background-size: cover;
+    margin-top: 10px;
+ }
+
+.k2{
+    height: 420px;
+    width: 400px;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+.k2a{
+    height: 360px;
+    width: 380px;
+    background-size: cover;
+    margin-top: 10px;
+    
+ }
+.k3{
+    height: 420px;
+    width: 400px;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+.k3a{
+    height: 360px;
+    width: 380px;
+    background-size: cover;
+    margin-top: 10px;
+ }
+.k4{
+    height: 420px;
+    width: 400px;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+.k4a{
+    height: 360px;
+    width: 380px;
+    background-size: cover;
+    margin-top: 10px;
+ }
+ #now{
+    color: blue;
+    font-size: 15px;
+    font-weight: normal;
+ }
